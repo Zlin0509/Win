@@ -1,0 +1,42 @@
+# CLion 的工作空间文件
+.idea/
+
+# CMake 生成的构建文件夹
+cmake-build-*/
+
+# 编译器和 IDE 生成的临时文件
+*.iml
+*.ipr
+*.iws
+
+# CMake 配置缓存和生成的文件
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+*.cmake
+
+# 临时文件
+*.log
+*.out
+*.dSYM/
+
+# 操作系统生成的文件
+.DS_Store
+Thumbs.db
+
+# 编译生成的二进制文件
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.o
+*.obj
+*.pch
+
+# CTest 生成的文件
+Testing/
+
+# CLion 特有的编译配置
+.idea/.idea.*
