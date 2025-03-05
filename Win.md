@@ -64,17 +64,25 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR szCmdLine,
 
 ##### `WNDCLASS`类
 **窗口类** 一种模板或蓝图，指定窗口的类型和一些基础数据，告诉操作系统如何处理窗口实例  
-`style`  
-`lpfnWndProc`  
+
+`style` 设置窗口的样式  
+
+`lpfnWndProc` 指定窗口的消息处理函数，处理窗口消息  
+**窗口消息** 从外部设备（键盘，鼠标等设备）返回的消息  
+
 `dbClsExtra cbWndRxtra`  
+
 `hInstance`  
+
 `hIcon`  
+
 `hCursor`  
+
 `hbrBackground`  
+
 `lpszMenuName`  
+
 `lpszClassName`  
-
-
 
 
 
